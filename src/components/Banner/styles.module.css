@@ -1,0 +1,36 @@
+.container {
+   margin: 2.4rem;
+}
+
+.swiper {
+   width: 100%;
+   height: 100%;
+   border-radius: .8rem;
+   box-shadow: 0rem .8rem 4rem rgba(0, 0, 0, 0.3);
+}
+
+.slide {
+   text-align: center;
+   background: var(--primary-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.slide img {
+   display: block;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.slideImg {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   height: 15rem;
+   background-color: #ccc;
+   color: var(--primary-color);
+   font-size: 3rem;
+}
